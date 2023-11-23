@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>findNext</string>
+				<key>findString</key>
+				<string>(?&lt;=)|\z</string>
+				<key>regularExpression</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^@]</string>
+	<key>name</key>
+	<string>Next ^L</string>
+	<key>uuid</key>
+	<string>76BE08AD-B447-4E97-AEEC-EC1E12310F5C</string>
+</dict>
+</plist>
